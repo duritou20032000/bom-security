@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bom-security-app" />
+        <module name="bom-security-browser" />
+        <module name="bom-security-core" />
+        <module name="bom-security-demo" />
+        <module name="datasource" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bom-mybatis" target="1.8" />
+      <module name="bomsecuritydemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
