@@ -10,12 +10,17 @@
         <module name="bom-security-browser" />
         <module name="bom-security-core" />
         <module name="bom-security-demo" />
-        <module name="datasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bom-mybatis" target="1.8" />
+      <module name="bom-security" target="1.8" />
+      <module name="bom-security-app" target="1.8" />
+      <module name="bom-security-browser" target="1.8" />
+      <module name="bom-security-core" target="1.8" />
+      <module name="bom-security-demo" target="1.8" />
       <module name="bomsecuritydemo" target="1.8" />
+      <module name="datasource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

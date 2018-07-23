@@ -52,7 +52,6 @@
         <module>bom-security-browser</module>
         <module>bom-security-app</module>
         <module>bom-security-demo</module>
-        <module>datasource</module>
     </modules>
 
 </project>
